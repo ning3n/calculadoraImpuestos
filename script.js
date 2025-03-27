@@ -10,7 +10,7 @@ function calculate(){
     }else{
         const age = ageInputEl.value;
         const income = incomeInputEl.value; 
-        if(age <= 18){
+        if(age < 21){
             resultEl.innerText = "No eres mayor de edad.";
         }else if(age > 100){
             resultEl.innerText = "ERROR: La edad es incorrecta";
