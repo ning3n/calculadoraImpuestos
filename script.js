@@ -19,7 +19,7 @@ function calculate(){
                 resultEl.innerText = "No debe pagar impuestos"
             }else{
                 const tax = (income * 0.40);
-                resultEl.innerText = `Su total a pagar es de ${tax}`;
+                resultEl.innerText = `Su total a pagar es de $${tax}`;
             }
         }
     }
